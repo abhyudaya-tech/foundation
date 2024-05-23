@@ -7,9 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<link rel="icon" href="/assets/images/brand/logo_af_square_without_bg.png" />
+  <link rel="icon" href="/assets/images/brand/logo_af_square_without_bg.png" />
+
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Abhyudaya Foundation</title>
+  <title>About Us - Abhyudaya Foundation</title>
+
+  <meta name="description"
+    content="At Abhyudaya Foundation, we are on a mission to ignite a profound connection between our vibrant Bharatiya culture and the dynamic energy of our youth. Rooted in the timeless essence of Nationalism and pride in our Cultural Heritage.">
+
+  <meta property="og:title" content="Abhyudaya Foundation">
+  <meta property="og:description"
+    content="At Abhyudaya Foundation, we are on a mission to ignite a profound connection between our vibrant Bharatiya culture and the dynamic energy of our youth. Rooted in the timeless essence of Nationalism and pride in our Cultural Heritage.">
+  <meta property="og:image" content="/assets/images/brand/logo_af_without_bg.png">
+  <meta property="og:url" content="https://abhyudaya.netlify.app/">
+
+  <meta name="twitter:title" content="Abhyudaya Foundation">
+  <meta name="twitter:description"
+    content="At Abhyudaya Foundation, we are on a mission to ignite a profound connection between our vibrant Bharatiya culture and the dynamic energy of our youth. Rooted in the timeless essence of Nationalism and pride in our Cultural Heritage.">
+  <meta name="twitter:url" content="/assets/images/brand/logo_af_without_bg.png">
+  <meta name="twitter:card" content="summary">
+
 
   <!-- Bootstrap -->
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -17,6 +34,19 @@
   <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
   <link href="assets/css/lightbox.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
+
+  <link rel="canonical" href="https://abhyudaya.netlify.app/about-us.html" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WHSEQJFGL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-7WHSEQJFGL');
+  </script>
+  
 </head>
 
 <body ng-app="abhyudaya">
@@ -32,11 +62,11 @@
             <i class="fa fa-home"></i>
             Home</a></li>
 
-        <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)"> <a href="aboutus.html">
+        <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)"> <a href="about-us.html">
             <i class="fa fa-shield"></i>
             About Us</a></li>
 
-        <li onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"> <a href="supportus.html">
+        <li onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"> <a href="support-us.html">
             <i class="fa fa-credit-card"></i>
             Support Us</a></li>
         <!-- <li onclick="hideSM()" class="mom" id="mm4" onclick="changeSelect(4)"> <a href="gallery.html">
@@ -48,7 +78,7 @@
         <li onclick="hideSM()" class="mom" id="mm6" onclick="changeSelect(6)"> <a href="news.html">
             <i class="fa fa-newspaper-o"></i>
             News</a></li> -->
-        <li onclick="hideSM()" class="mom" id="mm7" onclick="changeSelect(7)"> <a href="contactus.html">
+        <li onclick="hideSM()" class="mom" id="mm7" onclick="changeSelect(7)"> <a href="contact-us.html">
             <i class=" fa fa-map-marker"></i>
             Contact Us</a>
         </li>
@@ -76,7 +106,7 @@
               <div style="height: 94px; overflow: hidden" class="col-md-8 hidden-sm">
                 <!-- <button data-toggle="modal" data-target="#myModal" class="btn btn-sm btn-donat">
                   <i class="fa fa-inr"></i> Donate Now</button> -->
-                  <button class="btn btn-sm btn-donat" onclick="window.location.href = '/supportus.html'">
+                  <button class="btn btn-sm btn-donat" onclick="window.location.href = '/support-us.html'">
                     <i class="fa fa-inr"></i> Donate Now</button>
 
                 <!-- <ul class="top-right">
@@ -102,11 +132,11 @@
                     <i class="fa fa-home"></i>
                     Home</a></li>
 
-                <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)"> <a href="aboutus.html">
+                <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)"> <a href="about-us.html">
                     <i class="fa fa-shield"></i>
                     About Us</a></li>
 
-                <li onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"> <a href="supportus.html">
+                <li onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"> <a href="support-us.html">
                     <i class="fa fa-credit-card"></i>
                     Support Us</a></li>
                 <!-- <li onclick="hideSM()" class="mom" id="mm4" onclick="changeSelect(4)"> <a href="gallery.html">
@@ -118,7 +148,7 @@
                 <li onclick="hideSM()" class="mom" id="mm6" onclick="changeSelect(6)"> <a href="news.html">
                     <i class="fa fa-newspaper-o"></i>
                     News</a></li> -->
-                <li onclick="hideSM()" class="mom" id="mm7" onclick="changeSelect(7)"> <a href="contactus.html">
+                <li onclick="hideSM()" class="mom" id="mm7" onclick="changeSelect(7)"> <a href="contact-us.html">
                     <i class=" fa fa-map-marker"></i>
                     Contact Us</a></li>
               </ul>
@@ -151,160 +181,68 @@
   </div>
   <!---************************** Header content Ends Here ***************-->
 
-
-
-
   <div class="home-cont">
-
-
-
-
     <div class="container-fluid sldddd">
-      <!-- <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249447.5343442455!2d79.62055654980466!3d12.341497012885279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1432134039648"
-          style="width:100%;" height="450" frameborder="0" style="border:0"></iframe>
-
-      </div> -->
-
-
-
-
-
-
-
-      <div class="container tmon row">
-        <div class="col-sm-6">
-          <div class="row">
-
-            <div class="row hed">
-
-              <h2>Contact Us</h2>
-            </div>
-
-
-            <div style="height: 370px;  min-width: 300px" class="filter shado-2 inner-cint">
-              <b> <i class="fa fa-send"></i> ⁠</b>
-
-              <table style="width:100%;">
-                <tbody>
-                  <tr>
-                    <td><i class="fa fa-user"></i></td>
-                    <td><input class="form-control input-sm" placeholder="Name" type="text"> </td>
-                  </tr>
-
-
-
-
-
-
-                  <tr>
-                    <td><i class="fa fa-phone"></i></td>
-                    <td><input class="form-control input-sm" placeholder="Email Address" type="text"> </td>
-                  </tr>
-
-
-
-
-                  <tr>
-                    <td><i class="fa fa-phone"></i></td>
-                    <td><input class="form-control input-sm" placeholder="Mobile No" type="text"> </td>
-                  </tr>
-                  <tr>
-                    <td><i class="fa fa-envelope"></i></td>
-                    <td>
-                      <textarea style="height: 60px !important;" class="form-control ctxtar"
-                        placeholder="Your Message"></textarea>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td><button class="btn btn-success cust" style="width: 100%">
-                        Send</button> </td>
-                  </tr>
-
-                </tbody>
-              </table>
-
-            </div>
-
-
-
-
-
+      <div class=" row hidden-xs">
+        <div style="height:500px; margin-top:0px;" class="slider img-back">
+        </div>
+      </div>
+      <div class="container add-tionn">
+        <div class="row">
+          <div class="col-sm-6">
+            <img style="width: 100%;" src="assets/images/brand/logo_af_square_without_bg.png">
           </div>
 
+          <div class="col-sm-6 abut">
+            <div class="row hed">
+              <h2>About Us</h2>
+            </div>
+
+            <p>At Abhyudaya we are on a mission to ignite a profound connection between our vibrant Bharatiya culture
+              and the dynamic energy of our youth. Rooted in the timeless essence of Nationalism and pride in our
+              Cultural Heritage.</p>
+            <p>We believe that by combining technology, cultural experiences, and a deep sense of pride in our heritage,
+              we can forge a brighter future for our nation. Join us on this remarkable journey as we work together to
+              bring our values to life. Together, we can shape a better tomorrow for our “Bharat”</p>
+
+            <b>Our Vision</b>
+
+            <p>Our vision is simple yet profound, to cultivate a society that is deeply connected to Bharatiya Culture,
+              rooted in the timeless essence of Nationalism and pride in our Cultural Heritage.</p>
+
+            <b>Our Mission</b>
+
+            <ul>
+              <li>Spreading the essence of Bharatiya Culture through the utilization of modern communication technology.
+              </li>
+              <li>Inspiring Youth to take up micro actions for the macro change.</li>
+              <li>Nurturing compassionate leaders through youth-led initiatives.</li>
+              <li>Exploring Cultural Heritage.</li>
+            </ul>
+          </div>
         </div>
-
-
-
-
-
-
-
-
-
-        <div style="padding: 10% !important" class="col-sm-6 col-xs-12 addr">
-
-
-          <b>Address</b>
-
-          <p style="font-size:15px;">Abhyudaya Foundation<br>
-
-            Bengaluru, Karnataka
-
-          </p>
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
 
+      <!-- <div class="container">
+        <div class="row hed">
+          <h2>Our Team</h2>
+        </div>
 
+        <div class="row team">
+          <div class="col-sm-4">
+            <b>Sri. Akshay G J,</b>
+            <small> President</small>
+            <p>Bengaluru, Karnataka</p>
+          </div>
 
-
-
-
-
-
-
-
-
-
-
+          <div class="col-sm-4">
+            <b>Sri. Nagarjuna P,</b>
+            <small>Managing Trustee</small>
+            <p>Bengaluru, Karnataka</p>
+          </div>
+        </div>
+      </div> -->
     </div>
-
-
   </div>
 
 
@@ -312,7 +250,6 @@
   <!---************************** Body content Ends Here ***************-->
 
 
-  
 
 
   <footer style="margin-top:25px;">
@@ -363,13 +300,6 @@
 
   </footer>
 
-
-
-
-
-
-
-
   </div>
 
 
@@ -386,11 +316,11 @@
         </div>
         <div style="padding: 20px;" class="modal-body">
 
-          <!-- <b>Indian Bank, Thiruvattar.</b><br>
+          <b>Indian Bank, Thiruvattar.</b><br>
           <b>IFSC Code:IDIB000T155.</b><br>
           <b>MICR Code:629019013.</b><br>
           <b>Name:Kingsly T.</b><br>
-          <b>a/c No:6093117224.</b><br> -->
+          <b>a/c No:6093117224.</b><br>
         </div>
 
       </div>
